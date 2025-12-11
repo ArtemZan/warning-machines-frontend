@@ -1,5 +1,5 @@
 import './auth.css';
-import { FormEvent, useState } from 'react';
+import { type FormEvent, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { GoogleSignInButton } from '../../components/GoogleSignInButton';
 import { useAuth } from '../../hooks/useAuth';
